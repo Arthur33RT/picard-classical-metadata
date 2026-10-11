@@ -1,0 +1,105 @@
+{
+  "schema": "Classical Metadata Tagging Schema",
+  "version": "1.1",
+  "namespace": "classical_",
+  "value_model": "Unicode scalar or ordered multi-value list",
+  "statuses": [
+    "resolved",
+    "ambiguous_work",
+    "unresolved_work",
+    "recording_not_in_semantic_map"
+  ],
+  "tags": {
+    "retrieval_completeness": [
+      "classical_retrieval_status",
+      "classical_retrieval_error_count"
+    ],
+    "operational_diagnostics": [
+      "classical_plugin_status",
+      "classical_retrieval_elapsed_seconds",
+      "classical_retrieval_network_requests",
+      "classical_retrieval_cache_hits",
+      "classical_retrieval_coalesced_lookups"
+    ],
+    "hierarchy_evidence": [
+      "classical_hierarchy_status",
+      "classical_hierarchy_path_count",
+      "classical_work_paths",
+      "classical_source_evidence"
+    ],
+    "identity": [
+      "classical_schema_version",
+      "classical_status",
+      "classical_release_id",
+      "classical_recording_id",
+      "classical_work",
+      "classical_work_id",
+      "classical_work_type",
+      "classical_candidate_work",
+      "classical_candidate_work_id",
+      "classical_broader_work_assignment",
+      "classical_broader_work_assignment_id"
+    ],
+    "structure": [
+      "classical_work_path",
+      "classical_work_path_summary",
+      "classical_work_path_id",
+      "classical_work_depth",
+      "classical_parent_work",
+      "classical_parent_work_id",
+      "classical_part_order",
+      "classical_partial",
+      "classical_segment_index",
+      "classical_segment_count"
+    ],
+    "composition": [
+      "classical_composer",
+      "classical_composer_id",
+      "classical_librettist",
+      "classical_librettist_id",
+      "classical_lyricist",
+      "classical_lyricist_id",
+      "classical_writer",
+      "classical_writer_id",
+      "classical_translator",
+      "classical_translator_id",
+      "classical_arranger",
+      "classical_arranger_id",
+      "classical_orchestrator",
+      "classical_orchestrator_id",
+      "classical_catalog",
+      "classical_source_work",
+      "classical_source_work_id",
+      "classical_source_kind",
+      "classical_source_confidence"
+    ],
+    "performance": [
+      "classical_conductor",
+      "classical_conductor_id",
+      "classical_ensemble",
+      "classical_ensemble_id",
+      "classical_performer",
+      "classical_performer_id",
+      "classical_performer_role",
+      "classical_performer_instrument",
+      "classical_producer",
+      "classical_engineer",
+      "classical_balance",
+      "classical_editor",
+      "classical_mix",
+      "classical_mastering",
+      "classical_recording_place",
+      "classical_recording_place_id",
+      "classical_recording_area",
+      "classical_recording_date_begin",
+      "classical_recording_date_end"
+    ]
+  },
+  "excluded_context": [
+    "other recordings of fetched works",
+    "forward derivatives and arrangements",
+    "quarantined source relationships",
+    "roles inferred only from titles",
+    "guessed work hierarchy"
+  ]
+}
